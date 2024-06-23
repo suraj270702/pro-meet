@@ -5,12 +5,15 @@ import heroBg from "../img/hero-bg/img-landing-hero-bg-1.svg";
 import Image from "next/image";
 import Slider from "./Slider";
 import bannerImg from "../img/hero-bg/mental-health-banner.svg";
+import Navbar from "./Navbar";
 
 const HomePage = () => {
   return (
-    <div className="bg-[#f8f7f2]">
-      <div className="flex  w-[96%] lg:w-[90%] mx-auto">
-        <div className="w-full lg:w-1/2">
+    <div className="bg-[#f8f7f2] pb-10">
+      <div className="w-[96%] lg:w-[90%] mx-auto">
+        <Navbar />
+       <div className="flex">
+       <div className="w-full lg:w-1/2">
           <Image src={bannerImg} alt="" />
           <div className="flex flex-col">
             <span className="text-[48px] lg:text-[86px] font-medium">
@@ -35,6 +38,7 @@ const HomePage = () => {
         <div className="hidden lg:block w-full lg:w-1/2">
           <Slider />
         </div>
+       </div>
       </div>
     </div>
   );

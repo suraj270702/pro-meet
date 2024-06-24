@@ -32,7 +32,7 @@ const HomePage = () => {
           </div>
           <div className="mt-[25px] flex flex-col lg:flex-row gap-5">
             <button className="h-[60px] rounded-[6px] text-[20px] leading-[20px] font-bold text-center text-[#fff] bg-[#000] w-full lg:w-[50%]">Start My Page</button>
-            <button className="h-[60px] rounded-[6px] text-[20px] leading-[20px] font-bold text-center text-[#fff] bg-[#000] w-full lg:w-[50%]">Start My Page</button>
+            <button className="h-[60px] rounded-[6px] text-[20px] leading-[20px] font-bold text-center text-[#000] bg-transparent border-2 border-[#000] w-full lg:w-[50%]">Watch The Film</button>
           </div>
         </div>
         <div className="hidden lg:block w-full lg:w-1/2">

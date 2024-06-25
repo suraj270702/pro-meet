@@ -9,6 +9,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
       <Image src={logoImg} alt="" width={170} height={200} />
       <div className="hidden lg:flex items-center gap-x-10">
+      <Link href={"/"} className="text-[#141414] text-[16px] font-bold hover:border-b-2 hover:border-b-[#141414] transition-all duration-300 ease-in-out">Creators</Link>
         <Link href={"/"} className="text-[#141414] text-[16px] font-bold hover:border-b-2 hover:border-b-[#141414] transition-all duration-300 ease-in-out">Pricing</Link>
         <Link href={"/"} className="text-[#141414] text-[16px] font-bold hover:border-b-2 hover:border-b-[#141414] transition-all duration-300 ease-in-out">Earnings Calculator</Link>
       </div>
@@ -18,6 +19,7 @@ const Navbar = () => {
         Search
         
         </button>
+        
         <button className="py-3 px-4 rounded-lg text-center bg-white border border-gray-300">
             Login
         </button>

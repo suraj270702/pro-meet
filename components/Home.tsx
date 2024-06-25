@@ -9,7 +9,7 @@ import Navbar from "./Navbar";
 
 const HomePage = () => {
   return (
-    <div className="bg-[#f8f7f2] pb-10">
+    <div className="bg-[#f8f7f2] pb-10 w-full">
       <div className="w-[96%] lg:w-[90%] mx-auto">
         <Navbar />
        <div className="flex">
@@ -30,7 +30,7 @@ const HomePage = () => {
             Turn your passion and knowledge into a thriving business. Help your
             audience get ahead in life
           </div>
-          <div className="mt-[25px] flex flex-col lg:flex-row gap-5">
+          <div className="mt-[25px] flex flex-col md:flex-row gap-5">
             <button className="h-[60px] rounded-[6px] text-[20px] leading-[20px] font-bold text-center text-[#fff] bg-[#000] w-full lg:w-[50%]">Start My Page</button>
             <button className="h-[60px] rounded-[6px] text-[20px] leading-[20px] font-bold text-center text-[#000] bg-transparent border-2 border-[#000] w-full lg:w-[50%]">Watch The Film</button>
           </div>

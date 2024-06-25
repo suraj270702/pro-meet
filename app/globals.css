@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.hide::-webkit-scrollbar{
+  width: 0px;
+}
+
 .hero-bg-1{
   background-image: url("../img/hero-bg/img-landing-hero-bg-1.svg");
   background-repeat: no-repeat;

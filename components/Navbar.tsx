@@ -24,7 +24,7 @@ const Navbar = () => {
             Login
         </button>
         <button className="py-3 px-4 rounded-lg text-center bg-[#000] text-[#fff] font-bold">
-            Signup free
+            Sign up free
         </button>
       </div>
       </div>

@@ -28,7 +28,7 @@ const Expert = () => {
                 Find people from a company
               </h1>
               <h1 className="text-[14px] text-[#b0afaf]">
-                I'm looking for software engineers working in Google
+                I &apos; m looking for software engineers working in Google
               </h1>
             </div>
             <div className="p-[16px] border mb-[24px] rounded-[12px] border-[#b0afaf] cursor-pointer hover:bg-[rgba(0,0,0,0.5)] transition-all duration-300 ease-in-out">
